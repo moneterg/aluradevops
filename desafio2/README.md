@@ -4,7 +4,7 @@
 Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!".
 Caso contrário, mostre "Boa semana!".
 
-```javacript
+```javascript
 let weekDay = prompt("Responda: qual é o dia da semana?");
 
 if (weekDay == "Sábado") {
@@ -19,7 +19,7 @@ if (weekDay == "Sábado") {
 2️⃣ Verifique se um número digitado pelo usuário é positivo ou negativo.
 Mostre um alerta informando.
 
-```javacript
+```javascript
 let number = prompt("Digite um número para verificação");
 
 if (number >= 0) {
@@ -34,7 +34,7 @@ if (number >= 0) {
 Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!".
 Caso contrário, mostre "Tente novamente para ganhar.".
 
-```javacript
+```javascript
 let pontos = prompt("Digite sua quantidade de pontos");
 
 if (pontos >= 100) {
@@ -46,7 +46,7 @@ if (pontos >= 100) {
 
 4️⃣ Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
 
-```javacript
+```javascript
 let saldoConta = 5000;
 alert(`O saldo da sua conta é ${saldoConta}`);
 ```
@@ -54,7 +54,7 @@ alert(`O saldo da sua conta é ${saldoConta}`);
 5️⃣ Peça ao usuário para inserir seu nome usando prompt.
 Em seguida, mostre um alerta de boas-vindas usando esse nome.
 
-```javacript
+```javascript
 let nome = prompt("Digite seu nome");
 alert(`Boas-vindas ${nome}!`);
 ```
